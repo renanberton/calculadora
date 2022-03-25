@@ -6,11 +6,14 @@
 .container {
     height: 100vh;
     width: 50%;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
+    align-content: center;
+
 }
 
 h1 {
@@ -104,8 +107,12 @@ input {
 
 @media only screen and (max-width: 1024px) {
     .calculadora {
-        width: 400px;
-        height: auto;
+        width: 200px;
+        height: 500px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+
     }
 
     input {
@@ -119,22 +126,25 @@ input {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        align-content: center;
     }
 
     .numero {
-        height: 60px;
-        width: 60px;
+        height: 40px;
+        width: 40px;
         margin: 10px;
     }
 
     .operador {
-        height: 60px;
-        width: 60px;
+        height: 40px;
+        width: 40px;
         margin: 20px 0 0 0;
     }
 
     .operadores {
         width: 100%;
-        margin: 20px 0
+        margin: 20px 0;
+        flex-direction: row;
+        gap: 10px;
     }
 }
