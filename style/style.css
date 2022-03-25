@@ -102,7 +102,7 @@ input {
 @media only screen and (max-width: 1024px) {
     .calculadora {
         height: auto;
-        width: 400px;
+        width: 350px;
     }
 
     input {
@@ -115,14 +115,14 @@ input {
     }
 
     .numero {
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
         margin: 10px;
     }
 
     .operador {
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px ;
         margin: 20px 0 0 0;
     }
 
