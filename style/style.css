@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .container {
     width: 50%;
     height: auto;
@@ -21,7 +25,7 @@ h1 {
 
 .calculadora {
     background: #252525;
-    width: 80%;
+    width: 700px;
     height: auto;
     padding: 25px;
     border-radius: 10px;
@@ -98,6 +102,7 @@ input {
 @media only screen and (max-width: 1024px) {
     .calculadora {
         height: auto;
+        width: 400px;
     }
 
     input {
