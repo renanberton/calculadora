@@ -1,4 +1,3 @@
-# calculadora <br>
 Calculadora padrão, feita com Javascript puro. <br>
 
 <div align="center">
