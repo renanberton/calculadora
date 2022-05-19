@@ -38,7 +38,7 @@ operadores.forEach((operador) => {
 /* Evento que irá calcular os números e operadores inseridos no input */
 calcular.addEventListener('click', () => {
     let resultado = inputs.value;
-    inputs.value = eval(inputs.value).toFixed(2);
+    inputs.value = eval(inputs.value).toFixed(1);
     /* Variável que será true ao terminar o cálculo */
     jaCalculou = true;
 })

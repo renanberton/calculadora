@@ -56,10 +56,20 @@ h1 {
     background: #444444;
 }
 
+.numero:hover {
+    background-color: #EFEAD8;
+    color: #3c3c3c;
+}
+
 .numero:last-child {
     margin-top: 20px;
     width: 80%;
     height: 40px;
+}
+
+.numero:last-child:hover {
+    background-color: #EFEAD8;
+    color: #3c3c3c;
 }
 
 input:disabled {
@@ -98,6 +108,12 @@ input {
     margin-top: 10px;
     cursor: pointer;
     background: #DA0037;
+}
+
+.operador:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
 }
 
 .numero:nth-child(14) {
